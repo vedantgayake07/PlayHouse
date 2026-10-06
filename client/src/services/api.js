@@ -1,4 +1,5 @@
-const rawBase = (import.meta.env.VITE_API_URL || '').replace(/\/+$/, '');
+const defaultRenderUrl = 'https://playhouse-api-50oa.onrender.com';
+const rawBase = (import.meta.env.VITE_API_URL || (import.meta.env.PROD ? defaultRenderUrl : '')).replace(/\/+$/, '');
 export const API_BASE = rawBase ? `${rawBase}/api` : '/api';
 
 export function resolveMediaUrl(url) {
