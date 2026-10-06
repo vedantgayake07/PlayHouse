@@ -1,0 +1,17 @@
+{
+  "name": "multimedia-hub",
+  "version": "1.0.0",
+  "description": "Production-grade Full-Stack Multimedia Management System",
+  "private": true,
+  "scripts": {
+    "server": "cd server && node server.js",
+    "server:dev": "cd server && node --watch server.js",
+    "client": "cd client && npm run dev",
+    "start": "concurrently \"npm run server\" \"npm run client\"",
+    "seed": "cd server && node services/seedService.js",
+    "install:all": "npm install && cd server && npm install && cd ../client && npm install"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  }
+}

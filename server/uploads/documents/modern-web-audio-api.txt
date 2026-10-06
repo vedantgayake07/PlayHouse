@@ -1,0 +1,17 @@
+# Modern Web Audio API & Multimedia Systems Guide
+
+Welcome to the Multimedia Hub developer documentation.
+
+## Core Capabilities
+1. Lossless PCM Audio playback via standard HTML5 Audio and Web Audio API.
+2. Progressive MP4 and WebM video rendering with seekable buffer pipelines.
+3. In-browser responsive PDF viewing with native byte streaming.
+4. Relational tracking of watch progress, likes, ratings, and custom playlists.
+
+## Supported Formats
+- Video: MP4, WebM, MKV, MOV
+- Audio: MP3, WAV, FLAC, OGG, AAC
+- Images: SVG, PNG, JPG, WebP
+- Documents: PDF, TXT, DOCX, MD
+
+Created by Multimedia Hub Engineering Team.

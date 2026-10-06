@@ -1,0 +1,52 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 4 0 R /Resources << /Font << /F1 5 0 R /F2 6 0 R >> >> >>
+endobj
+4 0 obj
+<< /Length 925 >>
+stream
+BT /F1 20 Tf 50 720 Td (Multimedia Hub Architecture Whitepaper) Tj ET
+BT /F2 12 Tf 50 695 Td (Author: Chief Engineering Architect | Multimedia Hub Technical Library) Tj ET
+BT /F2 11 Tf 50 660 Td
+(MULTIMEDIA HUB: ARCHITECTURE SPECIFICATION) ' 
+(Section 1: Distributed Content Processing and Storage) ' 
+(Modern multimedia engines demand low-latency streaming pipelines.) ' 
+(This whitepaper specifies how node-based buffer streaming handles range headers.) ' 
+(Audio and video content is delivered with byte-range capability.) ' 
+() ' 
+(Section 2: Database Schema & Relational Integrity) ' 
+(The system employs full relational foreign-key cascades across users, media,) ' 
+(favorites, playlists, and watch histories.) ' 
+() ' 
+(Section 3: Zero-Latency Client Architecture) ' 
+(With client-side state synchronizers and responsive HTML5 media controllers,) ' 
+(media playback persists seamlessly across page transitions.) ' 
+ET
+endstream
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
+endobj
+6 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+xref
+0 7
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000266 00000 n 
+0000000340 00000 n 
+0000000418 00000 n 
+trailer
+<< /Size 7 /Root 1 0 R >>
+startxref
+490
+%%EOF
